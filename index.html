@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form action="" class="form">
+          <div id="input-1" class="input-container">
+            <h2>Usuário</h2>
+            <input type="text" class="input" id="user"/>
+          </div>
+          <div id="input-2" class="input-container">
+            <h2>Senha</h2>
+            <input type="password" class="input" id="password" />
+          </div>
+          <button type="submit" onclick=validar(event) id="submit">Submit</button>
+        </form>
+        <div id="mensagemErro">
+            <p>Erro ao efetuar login.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
